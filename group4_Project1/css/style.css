@@ -61,3 +61,19 @@
     padding: 20px;
     font: white;
 }
+
+
+.sneak {
+    width: 500px;
+    height: 500px;
+  }
+
+  .image-container{
+
+    text-align: center; /* Optional for inline or inline-block elements */
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+  }
