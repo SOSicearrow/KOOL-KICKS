@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,33 +6,33 @@
 }
 
 
-.img{
+.img {
     position: fixed;
     top: 0;
     left: 15px;
     z-index: 101;
-    height: 95px; 
+    height: 95px;
     width: 95px;
 
 }
 
 .navigation {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 39px 400px;
+    padding: 30px 400px;
     background: rgb(8, 8, 8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
-
+    z-index: auto;
 
 }
 
 .styled-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -40,43 +40,78 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+    cursor: pointer;
+    margin-bottom: 10px;
+}
 
 #about-container {
-   
-    background-color: #4CAF50; /* Red background color */
+
+    background-color: #4CAF50;
+    /* Red background color */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh; /* Adjust the height to control the spacing from the top and bottom */
-    max-width: 600px; /* Set a specific maximum width for the container */
+    max-width: 600px;
+    /* Set a specific maximum width for the container */
     text-align: center;
     margin: 15% auto;
-    
+
 }
 
 #about-us {
-    max-width: 800px; /* Limit the content width for readability */
+    max-width: 800px;
+    /* Limit the content width for readability */
     padding: 20px;
     font: white;
 }
 
-
 .sneak {
     width: 500px;
     height: 500px;
-  }
+}
 
-  .image-container{
+.image-container {
 
-    text-align: center; /* Optional for inline or inline-block elements */
+    text-align: center;
+    /* Optional for inline or inline-block elements */
     margin-left: auto;
     margin-right: auto;
     font-family: "Times New Roman";
     font-size: xx-large;
     font-weight: 1000;
     font-style: italic;
+    cursor: pointer;
 
 
-  }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+}
+
+/* Change the media to be responsive to size */
+@media screen and (max-width: 768px) {
+    .navigation {
+        padding: 35px;
+        flex-direction: column;
+    }
+
+    .styled-button .navigation {
+        margin-top: 10px;
+    }
+
+}
