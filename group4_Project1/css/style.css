@@ -103,6 +103,7 @@ p {
     font-size: larger;
 }
 
+
 /* Change the media to be responsive to size */
 @media screen and (max-width: 768px) {
     .navigation {
