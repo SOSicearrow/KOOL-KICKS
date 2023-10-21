@@ -9,10 +9,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kool Kicks Home Page</title>
-
-    <script>
-      src = "script.js";
-    </script>
+    <script src="../group4_Project1/js/script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -22,6 +19,8 @@
           src="../group4_Project1/img/logo2.png"
           alt="Your Image"
         />
+
+        <!--Top navigation bar with option to go to another HTML link-->
       </nav>
 
       <nav class="navigation">
@@ -32,13 +31,7 @@
             name="so_link"
             value="Home"
         /></a>
-        <a href="about.html">
-          <input
-            type="button"
-            class="styled-button"
-            name="so_link"
-            value="About Us"
-        /></a>
+
         <a href="mensShoes.html">
           <input
             type="button"
@@ -54,9 +47,152 @@
             name="so_link"
             value="Women's Shoes"
         /></a>
+        <a href="about.html">
+          <input
+            type="button"
+            class="styled-button"
+            name="so_link"
+            value="About Us"
+        /></a>
       </nav>
     </header>
+    <br /><br />
 
+    <div class="slideshow-container">
+      <!--Men Shoes-->
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/men/652f1caa-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/men/849fd0f9-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/men/b3c5c2f3-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/men/b986f72a-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/men/be761b4f-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <!--Women Shoes-->
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/women/9a1010e7-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/women/9f650691-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/women/a9433a91-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/women/da5ea561-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="../group4_Project1/img/women/fe1d6b51-.JPG"
+          style="width: 100%"
+        />
+      </div>
+
+      <!-- The dots/circles and Slideshow-->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <section id="about-container">
+      <section id="about-us">
+        <h2>🌟 Why Choose KOOL KICKS? 🌟</h2>
+        <p><br /></p>
+        <p>
+          👞 Trendsetting Styles: Discover the latest and greatest in footwear
+          fashion. From sleek sneakers to elegant heels, we've got your style
+          covered!
+        </p>
+        <p><br /></p>
+        <p>
+          🏆 Uncompromising Quality: We believe in premium craftsmanship and
+          comfort. Enjoy shoes that are built to last, without breaking the
+          bank.
+        </p>
+        <br />
+        <p>
+          💰 Amazing Deals: Don't miss out on our unbeatable prices! Get more
+          value for your money at KOOL KICKS.
+        </p>
+        <p><br /></p>
+        <p>
+          🔥 Hot New Arrivals: Be the first to rock the hottest styles. Our
+          inventory is always updated with the latest trends.
+        </p>
+        <p><br /></p>
+        <p>
+          🤝 Customer Satisfaction: We take pride in delivering top-notch
+          customer service. Your satisfaction is our priority!
+        </p>
+        <p><br /></p>
+        <p>
+          🛍️ Don't miss out on the chance to upgrade your shoe game with KOOL
+          KICKS. Visit our catalog and experience footwear excellence like never
+          before.
+        </p>
+        <p><br /></p>
+        <h3>👣 Step into style, step into KOOL KICKS! 👣</h3>
+      </section>
+    </section>
+
+    <!--Copyright Information-->
     <footer>
       &copy; 2023 Images retrieved from Nike, Inc. and adidas America Inc.
     </footer>
